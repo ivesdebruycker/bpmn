@@ -27,9 +27,12 @@
     "e2e-transaction-logger": "~0.1.0"
   },
   "devDependencies": {
-    "nodeunit": ">= 0.7.4",
     "commander": ">= 2.0.0",
-    "istanbul": ">= 0.1.44"
+    "istanbul": ">= 0.1.44",
+    "nodeunit": ">= 0.7.4",
+    "pg": "^4.5.5",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.23.3"
   },
   "repository": "https://github.com/e2ebridge/bpmn.git",
   "author": "support@e2ebridge.com",
